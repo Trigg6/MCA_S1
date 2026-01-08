@@ -1,7 +1,6 @@
 import math
+def surface_area(radius):
+    return 4*math.pi*radius**2
 
-def area(radius):
-    return 4 * math.pi * radius * radius
-
-def perimeter(radius):
-    return 2 * math.pi * radius
+def volume(radius):
+    return (4/3)*math.pi*radius**3
